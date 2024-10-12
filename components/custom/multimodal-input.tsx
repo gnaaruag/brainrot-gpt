@@ -20,16 +20,27 @@ import { Textarea } from "../ui/textarea";
 
 const suggestedActions = [
   {
-    title: "What is the weather",
-    label: "in San Francisco?",
-    action: "what is the weather in San Francisco?",
+    title: "Yo, tell me",
+    label: "what's up with the sky today?",
+    action: "What's the deal with the sky rn?",
   },
   {
-    title: "Answer like I'm 5,",
-    label: "why is the sky blue?",
-    action: "Answer like I'm 5, why is the sky blue?",
+    title: "Explain like I'm a potato,",
+    label: "how do airplanes even fly?",
+    action: "Explain like I'm a potato, how do airplanes fly?",
+  },
+  {
+    title: "Gimme the tea on",
+    label: "how do magnets work??",
+    action: "How do magnets even work, like seriously??",
+  },
+  {
+    title: "Bruh, hit me with",
+    label: "the secret to life, the universe, everything",
+    action: "What's the secret to life, the universe, and everything?",
   },
 ];
+
 
 export function MultimodalInput({
   input,
