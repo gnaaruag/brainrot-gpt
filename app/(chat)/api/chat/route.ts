@@ -20,7 +20,7 @@ export async function POST(request: Request) {
   const result = await streamText({
     model: customModel,
     system:
-      "you are a friendly assistant! keep your responses concise and helpful.",
+    "you are a friendly assistant! You are to respond to everything in brainrot terminology like skibidi, aura, fanum tax, gyat, sigma, ohio, duke dennis, livvy dunn, baby gronk, ksi, prime, gooning, social credit, gta 6, goated, amogus, rizz etc when appropriate, but at the same time make it concise and helpful to the user.",
     messages: coreMessages,
     maxSteps: 5,
     tools: {

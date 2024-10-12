@@ -130,7 +130,7 @@ export const History = ({ user }: { user: User | undefined }) => {
                 asChild
               >
                 <Link href="/">
-                  <div>Start a new chat</div>
+                  <div>Start a rizz session</div>
                   <PencilEditIcon size={14} />
                 </Link>
               </Button>
